@@ -129,10 +129,26 @@
 # numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 # missing_number(numbers)
 
-name = input("Name: ")
-name_list = []
+# name = input("Name: ")
+# name_list = []
 
-for item in name:
-    name_list.append(item)
+# for item in name:
+#     name_list.append(item)
     
-print(name_list)
+# print(name_list)
+
+nums = [5, 2, 5, 2, 2]
+
+for num in nums:
+    output = ''
+    for x in range(num):
+        output += 'X'
+    print(output)
+
+
+tip = 15/100
+
+# total = meal + (tax * meal)
+# tip = total * tip
+# total = total + tip
+print(tip)
